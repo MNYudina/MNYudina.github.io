@@ -18,8 +18,8 @@ redirect_from:
 
 Education
 ======
-* 2005-2009: Omsk State Teacherв's Training University, Bachelor's degree of Physics and Mathematics
-* 2009-2010 Omsk State Teacherв's Training University, specialist diploma with the qualification of a Mathematics teacher
+* 2005-2009: Omsk State Teacher's Training University, Bachelor's degree of Physics and Mathematics
+* 2009-2010 Omsk State Teacher's Training University, specialist diploma with the qualification of a Mathematics teacher
 * 2015-2019 Postgraduate education, Omsk State Technical University (05.13.18) 
    * Thesis:  Methods and algorithms for the statistical estimation of network motifs frequencies
    * Scientific adviser is [Zadorozhnyi V.N.](https://omgtu.ru/ecab/persons/?f=550)
