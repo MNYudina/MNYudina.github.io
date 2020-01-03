@@ -12,6 +12,7 @@ redirect_from:
 
 ### I am a phD student at Omsk State Technical University. I also teach the following disciplines
 * Fundamentals of system modeling (2014-2016)
+* Simulation. Advanced topics (2014-2016)
 * Object-Oriented Programming (2015-2016)
 * Software Engineering (2019-2020)
 * Development of software applications (2019-2020) 
