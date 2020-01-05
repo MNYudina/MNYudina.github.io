@@ -15,7 +15,7 @@ Education
 * 2010: Omsk State Teacher’s Training University, specialist diploma with the qualification of a Mathematics teacher
 * 2019: Omsk State Technical University, research teacher in the area of Mathematical modeling, numerical methods and program complexes(05.13.18)
   * Thesis: Methods and algorithms for the statistical estimation of network motifs frequencies
-
+  * Assigned qualifications: research instructor, research fellow
 
 Work experience
 ======
