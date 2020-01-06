@@ -32,8 +32,8 @@ Work experience
   
 Skills
 ======
-* Skill AnyLogic
-* Skill Java
+* Skill AnyLogic, R (igraph), MathCAD, Gephi, Pajek
+* Skill Java, Pascal
 
 Publications
 ======
