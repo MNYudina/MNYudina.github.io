@@ -33,5 +33,5 @@ Reseach interests
 * probabilistic models and methods,
 * complex networks,
 * interview with me [in russian](https://omgtu.ru/general_information/news/?ELEMENT_ID=48903)
-[Я на сайте ОмГТУ](https://omgtu.ru/ecab/persons/index.php?f=2191)
+* [Я на сайте ОмГТУ](https://omgtu.ru/ecab/persons/index.php?f=2191)
 
