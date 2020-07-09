@@ -7,8 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-[My Youtube channel](https://www.youtube.com/channel/UCse94379EWfi78PC2w6297w)
-[На русском здесь](https://omgtu.ru/ecab/persons/index.php?f=2191)
+
+My youtube channel[here](https://www.youtube.com/channel/UCse94379EWfi78PC2w6297w)
 
 
 ### I am a phD student at Omsk State Technical University. I also teach the following disciplines
@@ -33,3 +33,5 @@ Reseach interests
 * probabilistic models and methods,
 * complex networks,
 * interview with me [in russian](https://omgtu.ru/general_information/news/?ELEMENT_ID=48903)
+[Я на сайте ОмГТУ](https://omgtu.ru/ecab/persons/index.php?f=2191)
+
