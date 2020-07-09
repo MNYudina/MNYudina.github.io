@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+[My Youtube channel](https://www.youtube.com/channel/UCse94379EWfi78PC2w6297w)
 [На русском здесь](https://omgtu.ru/ecab/persons/index.php?f=2191)
 
 
