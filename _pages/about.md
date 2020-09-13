@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My youtube channel [here](https://www.youtube.com/channel/UCse94379EWfi78PC2w6297w)
+My youtube channel is [here](https://www.youtube.com/channel/UCse94379EWfi78PC2w6297w)
 
 
 ### I am a phD student at Omsk State Technical University. I also teach the following disciplines
