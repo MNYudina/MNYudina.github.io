@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 My youtube channel is [here](https://www.youtube.com/channel/UCse94379EWfi78PC2w6297w)
+
 My PhD thesis is [here](https://drive.google.com/file/d/1_4LW_9I1-FKVmeNVx0-wRC8DxCS1AX6u/view?usp=sharing)
 
 ### I associate professor of Omsk State Technical University. I teach the following disciplines
