@@ -6,13 +6,15 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+lang: en
+ref: about
 ---
 
 My youtube channel is [here](https://www.youtube.com/channel/UCse94379EWfi78PC2w6297w)
 
 My PhD thesis is [here](https://drive.google.com/file/d/1_4LW_9I1-FKVmeNVx0-wRC8DxCS1AX6u/view?usp=sharing)
 
-### I associate professor of Omsk State Technical University. I teach the following disciplines
+### I am an associate professor at Omsk State Technical University. These are the disciplines I teach
 * Fundamentals of system modeling (2014-2016)
 * Simulation. Advanced topics (2014-2016)
 * Object-Oriented Programming (2015-2016)
@@ -28,7 +30,7 @@ Education
    * Thesis:  Methods and algorithms for the statistical estimation of network motifs frequencies
    * Scientific adviser is [Zadorozhnyi V.N.](https://omgtu.ru/ecab/persons/?f=550)
 
-Reseach interests
+Research interests
 ======
 * network motifs,
 * probabilistic models and methods,

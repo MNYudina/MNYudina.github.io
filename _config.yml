@@ -140,6 +140,7 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - config
+  - docs
   - gulpfile.js
   - log
   - node_modules
@@ -202,6 +203,7 @@ defaults:
       comments: true
       share: true
       related: true
+      lang: en
   # _pages
   - scope:
       path: ""
@@ -209,6 +211,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      lang: en
   # _teaching
   - scope:
       path: ""
@@ -218,6 +221,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      lang: en
   # _publications
   - scope:
       path: ""
@@ -227,6 +231,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      lang: en
   # _portfolio
   - scope:
       path: ""
@@ -236,6 +241,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+      lang: en
   # _talks
   - scope:
       path: ""
@@ -244,6 +250,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+      lang: en
 
 # Sass/SCSS
 sass:

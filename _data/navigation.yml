@@ -1,13 +1,47 @@
-# main links links
-main:
+# Main navigation links, one list per language.
+#
+# The key is the language code from _data/languages.yml, so the masthead shows
+# the menu of the current page language. If a language is missing here the
+# templates fall back to the `en` list.
+#
+# Internal links are written relative to the site root: the templates add
+# base_path, and each language menu points at its own translated pages.
+
+en:
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
-        
+    url: /talks/
+
   - title: "Blog Posts"
     url: /year-archive/
-    
+
   - title: "CV"
     url: /cv/
+
+ru:
+  - title: "Публикации"
+    url: /ru/publications/
+
+  - title: "Доклады"
+    url: /ru/talks/
+
+  - title: "Блог"
+    url: /ru/year-archive/
+
+  - title: "Резюме"
+    url: /ru/cv/
+
+zh:
+  - title: "论文"
+    url: /zh/publications/
+
+  - title: "报告"
+    url: /zh/talks/
+
+  - title: "博客"
+    url: /zh/year-archive/
+
+  - title: "简历"
+    url: /zh/cv/

@@ -1,0 +1,30 @@
+# Languages available on this site.
+#
+# Editing this file is the only place where languages are declared:
+#   code   - two-letter code, used in front matter (`lang: ru`), in
+#            `_data/ui-text.yml` and in `_data/navigation.yml`
+#   name   - name shown in the masthead switcher
+#   short  - compact label for narrow screens
+#   prefix - URL prefix of the language, empty string for the default language
+#
+# The first entry must be the default language: it lives at the site root,
+# every other language is served under its prefix (e.g. /ru/, /zh/).
+#
+# To add a language: append an entry here, then add the same code to
+# _data/ui-text.yml and _data/navigation.yml, and create the translated
+# content files (see docs/i18n.md).
+
+- code: en
+  name: "English"
+  short: "EN"
+  prefix: ""
+
+- code: ru
+  name: "Русский"
+  short: "RU"
+  prefix: "/ru"
+
+- code: zh
+  name: "中文"
+  short: "ZH"
+  prefix: "/zh"

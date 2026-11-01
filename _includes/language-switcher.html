@@ -1,0 +1,27 @@
+{% comment %}
+  Language switcher.
+
+  Renders one link per language declared in _data/languages.yml. The link
+  points at the translation of the current page, found by matching the
+  `ref` key in the front matter of every page and collection document
+  (see docs/i18n.md). If no translation exists yet, the link falls back to
+  that language's home page, so no link is ever broken.
+{% endcomment %}
+
+{% assign ui = site.data.ui-text[page.lang] %}
+{% assign current_lang = page.lang | default: site.data.languages[0].code %}
+
+<span class="lang-switch" role="group" aria-label="{{ ui.language_label | default: 'Language' }}">
+  {% for lang in site.data.languages %}
+    {% assign target_url = "" %}
+    {% if page.ref %}
+      {% assign hit = site.pages | where: "ref", page.ref | where: "lang", lang.code | first %}
+      {% unless hit %}
+        {% assign hit = site.documents | where: "ref", page.ref | where: "lang", lang.code | first %}
+      {% endunless %}
+      {% if hit %}{% assign target_url = hit.url %}{% endif %}
+    {% endif %}
+    {% if target_url == "" %}{% assign target_url = lang.prefix | append: "/" %}{% endif %}
+    <a href="{{ base_path }}{{ target_url }}" lang="{{ lang.code }}" hreflang="{{ lang.code }}" title="{{ lang.name }}"{% if lang.code == current_lang %} class="is-active" aria-current="true"{% endif %}>{{ lang.short }}</a>
+  {% endfor %}
+</span>
