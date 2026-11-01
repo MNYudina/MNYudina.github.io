@@ -6,4 +6,6 @@ excerpt: 'A random sampling of frames method, based on a statistical approach, a
 date: 2017-07-12
 venue: 'Proceedings – 2017 Siberian Symposium on Data Science and Engineering, SSDSE 2017, 8071957, P.23-26. DOI: 10.1109/SSDSE.2017.8071957'
 paperurl: 'https://ieeexplore.ieee.org/document/8071957'
+lang: en
+ref: pub-ssdse-2017
 ---

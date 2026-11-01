@@ -6,4 +6,6 @@ excerpt: 'For growing graphs of preferential attachment that lose arcs continuou
 date: 2018-04-16
 venue: 'Moscow Workshop on Electronic and Networking Technologies (MWENT), P. 1-7.  DOI: 10.1109/MWENT.2018.8337251'
 paperurl: 'https://ieeexplore.ieee.org/document/8337251'
+lang: en
+ref: pub-mwent-2018
 ---

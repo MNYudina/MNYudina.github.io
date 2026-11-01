@@ -3,10 +3,13 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+lang: en
+ref: teaching
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+{% assign posts = site.teaching | where: "lang", page.lang %}
+{% for post in posts reversed %}
   {% include archive-single.html %}
 {% endfor %}

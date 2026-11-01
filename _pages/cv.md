@@ -5,6 +5,8 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+lang: en
+ref: cv
 ---
 
 {% include base_path %}
@@ -19,7 +21,7 @@ Education
 
 Work experience
 ======
-* Summer 2010 - Winter 2011: Tearcher of computer science and mathematics
+* Summer 2010 - Winter 2011: Teacher of computer science and mathematics
   * School N51, Omsk
 * Winter 2011 - Summer 2013: network engineer
   * Municipal engineering company "Service"
@@ -37,13 +39,15 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% assign cv_publications = site.publications | where: "lang", page.lang %}
+  {% for post in cv_publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% assign cv_talks = site.talks | where: "lang", page.lang %}
+  {% for post in cv_talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   

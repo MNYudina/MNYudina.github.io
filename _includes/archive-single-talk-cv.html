@@ -1,5 +1,7 @@
 {% include base_path %}
 
+{% assign date_format = site.data.ui-text[page.lang].date_format | default: "%B %d, %Y" %}
+
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -33,8 +35,8 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{post.type}} at {{ post.venue }},  {{post.location}}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: date_format }}</p>{% endif %}
+    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.type }} — {{ post.venue }}, {{ post.location }}</p>{% endif %}
     </li>
   </article>
 </div>

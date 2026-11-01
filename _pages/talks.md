@@ -3,6 +3,8 @@ layout: archive
 title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
+lang: en
+ref: talks
 ---
 
 {% if site.talkmap_link == true %}
@@ -11,6 +13,7 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
+{% assign posts = site.talks | where: "lang", page.lang %}
+{% for post in posts reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}

@@ -1,0 +1,32 @@
+name: Build site with Jekyll
+
+# Проверка сборки на каждый pull request: GitHub Pages собирает сайт
+# своим Jekyll-ом, и ошибка в Liquid ломает публикацию. Этот workflow
+# собирает сайт в том же окружении и показывает результат в PR.
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      # Собранный сайт можно скачать из вкладки Actions и посмотреть локально.
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-site
+          path: ./_site
+          retention-days: 7

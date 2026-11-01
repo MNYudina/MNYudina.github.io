@@ -6,4 +6,6 @@ excerpt: 'A new class of graphs is introduced in preferential attachment random 
 date: 2017-11-14
 venue: '11th International IEEE Scientific and Technical Conference Dynamics of Systems, Mechanisms and Machines Dynamics. – P.1-8. DOI: 10.1109/Dynamics.2017.8239525'
 paperurl: 'https://ieeexplore.ieee.org/document/8239525'
+lang: en
+ref: pub-sibcon-complex-increment
 ---
